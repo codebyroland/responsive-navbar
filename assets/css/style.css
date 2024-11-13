@@ -6,11 +6,11 @@
 }
 
 body {
-  background: linear-gradient(135deg, #e6f2ff 0%, #f0f7ff 100%);
+  background: #e6f2ff;
 }
 
 .container {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 nav.navbar {
@@ -24,22 +24,16 @@ nav.navbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 25px 40px;
-  background: rgba(255, 255, 255, 0.95);
-  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 10px 20px #00000030;
+          box-shadow: 0 10px 20px #00000030;
 }
 
 nav.navbar .navbar-brand .logo {
-  font-size: 38px;
-  font-weight: 700;
-  background: linear-gradient(45deg, #259dff, #6eb6ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: none;
+  font-size: 36px;
+  font-weight: 600;
+  text-shadow: 0 5px 5px #00000030;
 }
 
 nav.navbar .navbar-list .nav-ul {
@@ -50,7 +44,7 @@ nav.navbar .navbar-list .nav-ul {
 
 nav.navbar .navbar-list .nav-ul .nav-li {
   list-style-type: none;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 nav.navbar .navbar-list .nav-ul .nav-li:nth-child(1) {
@@ -60,31 +54,12 @@ nav.navbar .navbar-list .nav-ul .nav-li:nth-child(1) {
 nav.navbar .navbar-list .nav-ul .nav-li .nav-link {
   text-decoration: none;
   color: #1a1e24;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  position: relative;
 }
 
 nav.navbar .navbar-list .nav-ul .nav-li .nav-link:hover {
   color: #259dff;
-}
-
-nav.navbar .navbar-list .nav-ul .nav-li .nav-link::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -5px;
-  left: 0;
-  background: #259dff;
-  transition: width 0.3s ease;
-  -webkit-transition: width 0.3s ease;
-}
-
-nav.navbar .navbar-list .nav-ul .nav-li .nav-link:hover::after {
-  width: 100%;
 }
 
 nav.navbar .menu {
@@ -96,41 +71,38 @@ nav.navbar .menu span {
   display: block;
   width: 30px;
   height: 3px;
-  margin: 6px;
+  margin: 5px;
   background: #259dff;
   border-radius: 10px;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {
   nav.navbar .navbar-list {
-    background: rgba(255, 255, 255, 0.98);
+    background: #ffffff;
     position: absolute;
     top: 100%;
     left: 0;
-    padding-left: 40px;
+    padding-left: 30px;
     width: 100%;
     overflow: hidden;
     height: 0;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
   nav.navbar .navbar-list .nav-ul {
     position: absolute;
     top: 0;
-    left: 40px;
+    left: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   nav.navbar .navbar-list .nav-ul .nav-li {
-    margin: 15px 0;
+    margin: 0 0 10px;
   }
   nav.navbar .menu-active {
-    height: 180px;
+    height: 150px;
   }
   nav.navbar .menu {
     display: block;
