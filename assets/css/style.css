@@ -6,7 +6,8 @@
 }
 
 body {
-  background: #e6f2ff;
+
+  background: #f2ffe6;
 }
 
 .container {
@@ -25,9 +26,12 @@ nav.navbar {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 30px;
-  background: #ffffff;
-  -webkit-box-shadow: 0 10px 20px #00000030;
-          box-shadow: 0 10px 20px #00000030;
+
+
+
+  background: #fff6f6;
+  -webkit-box-shadow: 0 10px 20px #00300030;
+          box-shadow: 0 10px 20px #00300030;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -35,7 +39,8 @@ nav.navbar {
 nav.navbar .navbar-brand .logo {
   font-size: 36px;
   font-weight: 600;
-  text-shadow: 0 5px 5px #00000030;
+
+  text-shadow: 0 5px 5px #00300030;
   -webkit-transition: transform 0.3s ease;
   transition: transform 0.3s ease;
 }
@@ -62,7 +67,8 @@ nav.navbar .navbar-list .nav-ul .nav-li:nth-child(1) {
 
 nav.navbar .navbar-list .nav-ul .nav-li .nav-link {
   text-decoration: none;
-  color: #1a1e24;
+
+  color: #241a1e;
   font-size: 22px;
   font-weight: 500;
   -webkit-transition: color 0.3s ease;
@@ -70,7 +76,8 @@ nav.navbar .navbar-list .nav-ul .nav-li .nav-link {
 }
 
 nav.navbar .navbar-list .nav-ul .nav-li .nav-link:hover {
-  color: #259dff;
+
+  color: #ff25d9;
 }
 
 nav.navbar .menu {
@@ -83,7 +90,8 @@ nav.navbar .menu span {
   width: 30px;
   height: 3px;
   margin: 5px;
-  background: #259dff;
+
+  background: #25ff9d;
   border-radius: 10px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -91,7 +99,8 @@ nav.navbar .menu span {
 
 @media screen and (max-width: 1024px) {
   nav.navbar .navbar-list {
-    background: #ffffff;
+
+    background: #fff6f6;
     position: absolute;
     top: 100%;
     left: 0;
