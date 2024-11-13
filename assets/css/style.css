@@ -28,12 +28,21 @@ nav.navbar {
   background: #ffffff;
   -webkit-box-shadow: 0 10px 20px #00000030;
           box-shadow: 0 10px 20px #00000030;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 nav.navbar .navbar-brand .logo {
   font-size: 36px;
   font-weight: 600;
   text-shadow: 0 5px 5px #00000030;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+nav.navbar .navbar-brand .logo:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 nav.navbar .navbar-list .nav-ul {
@@ -56,6 +65,8 @@ nav.navbar .navbar-list .nav-ul .nav-li .nav-link {
   color: #1a1e24;
   font-size: 22px;
   font-weight: 500;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 nav.navbar .navbar-list .nav-ul .nav-li .nav-link:hover {
@@ -74,6 +85,8 @@ nav.navbar .menu span {
   margin: 5px;
   background: #259dff;
   border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {
@@ -97,6 +110,8 @@ nav.navbar .menu span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
   nav.navbar .navbar-list .nav-ul .nav-li {
     margin: 0 0 10px;
@@ -107,4 +122,5 @@ nav.navbar .menu span {
   nav.navbar .menu {
     display: block;
   }
+
 }
