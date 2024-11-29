@@ -1,12 +1,44 @@
-# Responsive-navbar
-created responsive navbar for 📱mobile and 💻desktop.
+<div align="center">
+  <h2 align="center">Responsive Navbar</h2>
 
-> Desktop view `1280x720`
-> 
-> ![desktop navbar](https://github.com/codebyroland/responsive-navbar/blob/master/assets/images/desktop.png)
+  This is a Navbar for all websites, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-<br>
+  <a href="https://rolandaayo.github.io/responsive-navbar/"><strong>➥ Live Demo</strong></a>
 
-> Tablet/Mobile view `1024x720`
-> 
-> ![mobile navbar](https://github.com/codebyroland/responsive-navbar/blob/master/assets/images/mobile.png)
+</div>
+
+<br />
+
+### Demo Screeshots
+
+![Micro Desktop Demo](./readme-images/responsive-nav.png "Desktop Demo")
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+### Installing Micro
+
+To install **Responsive Navbar**, run this command on your git bash:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/rolandaayo/responsive-navbar.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/rolandaayo/responsive-navbar.git
+```
+
+### Contact
+
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/rolandaayo).
+
+### License
+
+This project is **free to use** and does not contains any license.
