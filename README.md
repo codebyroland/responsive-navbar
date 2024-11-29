@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-### Installing Micro
+### Installing Navbar
 
 To install **Responsive Navbar**, run this command on your git bash:
 
